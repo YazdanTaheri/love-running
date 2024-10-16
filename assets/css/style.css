@@ -192,7 +192,7 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 }
-
+   /* Footer */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -272,6 +272,16 @@ hr {
 #times h3 {
     /* override the heading colour set in general styles */
     color: #fafafa;
+}
+
+/* Gallery page */
+#photo img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0%;
 }
 
 @media screen and (min-width: 1200px) {
